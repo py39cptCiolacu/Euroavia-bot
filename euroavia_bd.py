@@ -35,4 +35,4 @@ async def on_message(message):
         sapt -= 1
         await message.channel.send(task(dept, sapt))
 
-client.run('OTM2NTc0OTg3Mjk1MzkxNzc1.YfPLbQ.Sd2s6OcAKK-AsQByYnPxBCgs-Wo')
+client.run(os.getenv('TOKEN'))
