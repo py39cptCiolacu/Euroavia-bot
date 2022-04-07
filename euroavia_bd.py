@@ -26,8 +26,8 @@ async def on_message(message):
 
     msg = message.content
 
-    if msg.startswith('#task'):
-        info = msg.split('#')
+    if msg.startswith('$task'):
+        info = msg.split('$')
         print(info)
         dept = info[2]
         sapt = info[3]
